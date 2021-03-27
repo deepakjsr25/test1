@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('bg.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.alien-1,
+.alien-2,
+.alien-3 {
+    position: absolute;
+}
+
+.alien-1 {
+    top: 550px;
+    left: 723px;
+    animation: alien1Move 1s linear infinite;
+    /* linear infinite*/
+}
+
+.alien-2 {
+    top: 473px;
+    left: 1137px;
+    animation: alien2Move 1s linear infinite;
+    /* linear infinite*/
+}
+
+.alien-3 {
+    top: 536px;
+    left: 1390px;
+    animation: alien3Move 1s linear infinite;
+    /* linear infinite*/
+}
+
+
+/*########alien 1 animation css start here####*/
+
+@keyframes alien1Move {
+    0% {
+        top: 550px;
+        left: 723px;
+    }
+    50% {
+        top: 470px;
+        left: 723px;
+    }
+    100% {
+        top: 550px;
+        left: 723px;
+    }
+}
+
+
+/*########alien 1 animation css end here####*/
+
+
+/*########alien 2 animation css start here####*/
+
+@keyframes alien2Move {
+    0% {
+        top: 473px;
+        left: 1137px;
+    }
+    50% {
+        top: 393px;
+        left: 1137px;
+    }
+    100% {
+        top: 473px;
+        left: 1137px;
+    }
+}
+
+
+/*########alien 2 animation css end here####*/
+
+
+/*########alien 3 animation css start here####*/
+
+@keyframes alien3Move {
+    0% {
+        top: 536px;
+        left: 1390px;
+    }
+    50% {
+        top: 456px;
+        left: 1390px;
+    }
+    100% {
+        top: 536px;
+        left: 1390px;
+    }
+}
+
+
+/*########alien 3 animation css end here####*/
+
+
+/*########spaceship css  start here####*/
+
+.spaceship-1 {
+    position: absolute;
+    right: -20%;
+    top: 10%;
+    animation: spaceship1Move linear infinite 100s;
+    /* linear infinite*/
+    /* linear is used for uniform speed start to end */
+}
+
+.spaceship-2 {
+    position: absolute;
+    right: -20%;
+    top: 17%;
+    animation: spaceship1Move linear infinite 200s;
+    /* linear infinite*/
+    /* linear is used for uniform speed start to end */
+    animation-delay: 5s;
+}
+
+.spaceship-3 {
+    position: absolute;
+    right: -20%;
+    top: 2%;
+    animation: spaceship1Move linear infinite 300s;
+    /* linear infinite*/
+    /* linear is used for uniform speed start to end */
+    animation-delay: 15s;
+}
+
+
+/*########spaceship animation css start here####*/
+
+@keyframes spaceship1Move {
+    0% {
+        right: -20%;
+    }
+    50% {
+        right: 110%;
+    }
+    100% {
+        right: -20%;
+    }
+}
+
+
+/*########spaceship animation css end here####*/
+
+
+/*########spaceship css  end here####*/
+
+
+/*########astranaut1 css start here####*/
+
+.astronaut-1 {
+    position: absolute;
+    left: -15%;
+    top: 0%;
+    animation: astronaut1Move 50s linear;
+}
+
+
+/*########astronaut1 animation css start here####*/
+
+@keyframes astronaut1Move {
+    0% {
+        left: -15%;
+        top: 0%;
+    }
+    100% {
+        top: 18%;
+        left: 108%;
+    }
+}
+
+
+/*########astronaut1 animation css end here####*/
+
+
+/*########astranaut1 css  end here####*/
+
+
+/*########astranaut2 css  start here####*/
+
+.astronaut-2 {
+    position: absolute;
+    right: 5%;
+    top: -50%;
+    animation: astronaut2Move 50s linear;
+    animation-delay: 45s;
+}
+
+@keyframes astronaut2Move {
+    0% {
+        right: 5%;
+        top: -50%;
+    }
+    100% {
+        top: 105%;
+        right: 105%;
+    }
+}
+
+
+/*########astronaut2 animation css start here####*/
+
+
+/*########astronaut2 animation css end here####*/
+
+
+/*########astranaut2 css  end here####*/
